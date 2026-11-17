@@ -1,0 +1,160 @@
+{
+  "title": "Gestione inventario arredi scolastici",
+  "description": "Prototipo navigabile per consultare e aggiornare l’inventario di arredi di aule inventate, con filtri per ambiente e stato di conservazione.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo inventario",
+      "description": "Panoramica delle dotazioni e delle condizioni degli arredi registrati.",
+      "metrics": [
+        {
+          "label": "Arredi registrati",
+          "value": "248"
+        },
+        {
+          "label": "Aule censite",
+          "value": "12"
+        },
+        {
+          "label": "In buono stato",
+          "value": "183"
+        },
+        {
+          "label": "Da verificare",
+          "value": "42"
+        },
+        {
+          "label": "Da riparare",
+          "value": "23"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Lumo 01",
+          "Banco doppio",
+          "18",
+          "Buono"
+        ],
+        [
+          "Lumo 01",
+          "Sedia",
+          "36",
+          "Buono"
+        ],
+        [
+          "Vela 02",
+          "Armadio basso",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Nubi 03",
+          "Tavolo docente",
+          "1",
+          "Da riparare"
+        ],
+        [
+          "Vela 04",
+          "Lavagna mobile",
+          "1",
+          "Buono"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "arredi",
+      "title": "Elenco arredi",
+      "description": "Consulta e filtra le dotazioni per aula, tipologia e stato di conservazione.",
+      "metrics": [
+        {
+          "label": "Risultati iniziali",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Lumo 01",
+          "Banco doppio",
+          "18",
+          "Buono"
+        ],
+        [
+          "Lumo 01",
+          "Sedia",
+          "36",
+          "Buono"
+        ],
+        [
+          "Vela 02",
+          "Armadio basso",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Nubi 03",
+          "Tavolo docente",
+          "1",
+          "Da riparare"
+        ],
+        [
+          "Vela 04",
+          "Lavagna mobile",
+          "1",
+          "Buono"
+        ],
+        [
+          "Nubi 05",
+          "Scaffale",
+          "3",
+          "Buono"
+        ],
+        [
+          "Lumo 06",
+          "Sedia",
+          "24",
+          "Da verificare"
+        ],
+        [
+          "Vela 07",
+          "Banco singolo",
+          "14",
+          "Buono"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra un arredo",
+      "description": "Aggiungi una dotazione indicando aula, tipologia, quantità e stato.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ]
+    }
+  ]
+}
